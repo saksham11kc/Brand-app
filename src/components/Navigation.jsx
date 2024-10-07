@@ -1,9 +1,10 @@
+import NikeLogo from "../../public/brand_logo.png";
 function Navigation() {
   return (
     <>
       <nav className="poppins-extralight container">
         <div className="logo ">
-          <img src="../../../images/brand_logo.png" alt="nike logo" />
+          <img src={NikeLogo} alt="nike logo" />
         </div>
         <ul>
           <li href="#">MENU</li>

@@ -1,3 +1,7 @@
+import FlipkartLogo from "../../public/flipkart.png";
+import ShoeImage from "../../public/shoe_image.png";
+import AmazonLogo from "../../public/amazon.png";
+
 export default function HeroSection() {
   return (
     <main className="hero container">
@@ -19,14 +23,13 @@ export default function HeroSection() {
         <div className="shopping ">
           <p>Also Available On</p>
           <div className="brand-icons">
-            <img src="../../images/amazon.png" alt="amazon logo" />{" "}
-            &nbsp;&nbsp;&nbsp;
-            <img src="../../images/flipkart.png" alt="flipkart logo" />
+            <img src={AmazonLogo} alt="amazon logo" /> &nbsp;&nbsp;&nbsp;
+            <img src={FlipkartLogo} alt="flipkart logo" />
           </div>
         </div>
       </div>
       <div className="hero-image">
-        <img src="../../images/shoe_image.png" alt="shoe image" />
+        <img src={ShoeImage} alt="shoe image" />
       </div>
     </main>
   );
